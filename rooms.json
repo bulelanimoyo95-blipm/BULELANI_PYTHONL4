@@ -1,0 +1,38 @@
+[
+    {
+        "room_id": 1,
+        "room_type": "Single",
+        "status": "available",
+        "price": 50
+    },
+    {
+        "room_id": 2,
+        "room_type": "Double",
+        "status": "available",
+        "price": 80
+    },
+    {
+        "room_id": 3,
+        "room_type": "Suite",
+        "status": "available",
+        "price": 150
+    },
+    {
+        "room_id": 4,
+        "room_type": "Single",
+        "status": "unavailable",
+        "price": 50
+    },
+    {
+        "room_id": 5,
+        "room_type": "Double",
+        "status": "available",
+        "price": 80
+    },
+    {
+        "room_id": 6,
+        "room_type": "Suite",
+        "status": "maintenance",
+        "price": 150
+    }
+]
