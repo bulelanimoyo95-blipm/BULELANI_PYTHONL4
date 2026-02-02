@@ -51,6 +51,7 @@ class HotelSystem:
         self.room_manager.show_rooms()
 
         name = input("\nEnter your name: ")
+        email = input("Enter your email: ")
         room_id = int(input("Enter room ID to book: "))
         check_in = input("Check-in date: ")
         check_out = input("Check-out date: ")
@@ -61,7 +62,7 @@ class HotelSystem:
         if not available:
             return
 
-        customer = Customer(name)
+        customer = Customer(name, email)
         booking_id = len(self.bookings) + 1
         status = "confirmed"
         booking = Booking(booking_id, customer.name, room_id, check_in, check_out, status)

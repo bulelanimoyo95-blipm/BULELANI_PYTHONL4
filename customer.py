@@ -1,9 +1,11 @@
 class Customer:
-    def __init__(self, name):
+    def __init__(self, name, email):
         self.name = name
+        self.email = email
 
     def to_dict(self):
         return {
-            "name": self.name
+            "name": self.name,
+            "email": self.email
         }
 
