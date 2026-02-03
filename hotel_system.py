@@ -5,7 +5,7 @@ from customer import Customer
 class HotelSystem:
     def __init__(self):
         self.room_manager = RoomManager()
-        self.bookings = []
+        self.bookings = []          
 
     def main_menu(self):
         while True:
