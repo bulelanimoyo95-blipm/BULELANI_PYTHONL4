@@ -2,13 +2,13 @@
     {
         "room_id": 1,
         "room_type": "Single",
-        "status": "unavailable",
+        "status": "available",
         "price": 50
     },
     {
         "room_id": 2,
         "room_type": "Double",
-        "status": "available",
+        "status": "unavailable",
         "price": 80
     },
     {
